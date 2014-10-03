@@ -1,0 +1,18 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    cool.io (1.1.1)
+      iobuffer (>= 1.0.0)
+    iobuffer (1.1.2)
+    jubatus (0.6.1)
+      msgpack-rpc (~> 0.5.1)
+    msgpack (0.5.8)
+    msgpack-rpc (0.5.2)
+      cool.io (~> 1.1.1)
+      msgpack (~> 0.5.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jubatus
