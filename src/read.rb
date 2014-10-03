@@ -19,4 +19,10 @@ class Meal
       end
     end
   end
+
+  def read_image(path)
+    label = path.split('/')[-2]
+    data = {image: File.open(path).read()}
+    [label, data]
+  end
 end
